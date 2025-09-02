@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <head>
+        <title>Desplugados</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Desplugados.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>🎮DESPLUGADOS🎮</h1>
+            <nav>
+                <ul>
+                    <li><a href="#cadastro">Formul&aacute;rio de Inscri&ccedil;&atilde;o</a></li>
+                    <li><a href="#programacao">Programa&ccedil;&atilde;o do Evento</a></li>
+                    <li><a href="https://www.marvel.com">Marvel. The Official Site</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br><br>
+
+        <section id="cadastro">
+            <h2>Formul&aacute;rio de Inscri&ccedil;&atilde;o 📋</h2>
+            <form>
+                <p><label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" maxlength="35" size="35" required></p>
+
+                <p><label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" maxlength="30" size="35" required></p>
+
+                <p><label for="nasc">Data de Nascimento:</label>
+                <input type="date" id="nasc" name="nasc" min="1900-01-01" required></p>
+
+                <p><label for="categoria">Categoria Geek Favorita:</label>
+                <select id="categoria" name="categoria" required>
+                    <option value="games">Games</option>
+                    <option value="animes">Animes</option>
+                    <option value="quadrinhos">Quadrinhos</option>
+                    <option value="ficcao">Ficção Cientifica</option>
+                    <option value="filmes">Filmes</option>
+                    <option value="serie">Series</option>
+                </select></p>
+
+                <p>Deseja receber novidades?</p>
+                <p><label><input type="radio" name="nov" value="sim">Sim</label>
+                <label><input type="radio" name="nov" value="nao">Não</label></p>
+
+                <p><label for="comentario">Comentários</label></p>
+                <p><textarea id="comentario" name="comentario" rows="5" cols="50"></textarea></p>
+
+                <p><input type="submit" value="Enviar Inscri&ccedil;&atilde;o">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="Limpar"></p>
+            </form>
+        </section>
+        <br><br><br>
+
+        <section id="programacao">
+            <h2>📅 Programação do Evento</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Horários</th>
+                        <th>Atividades</th>
+                        <th>Convidado/ Palestrante</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>09:30</td>
+                        <td>Painel de Games Retrô</td>
+                        <td>Billy Mitchell</td>
+                    </tr>
+                    <br>
+
+                    <tr>
+                        <td>13:00</td>
+                        <td>Batalha de Cosplay</td>
+                        <td>Jason Momoa</td>
+                    </tr>
+                    <br>
+
+                    <tr>
+                        <td>16:00</td>
+                        <td>Não Apenas Quadrinhos</td>
+                        <td>Chris Hemsworth</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br><br><br><br><br>
+
+        <footer>
+            <p>&copy; Desplugados. Todos os direitos reservados.</p>
+            <p><a href="#top">Voltar ao Topo🔝</a></p>
+        </footer>
+    </body>
